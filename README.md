@@ -8,28 +8,27 @@ This project focuses on the risk assessment and optimization of stock portfolios
 - **Visualization**: Plot risk-return profiles to visually assess potential investment choices.
 
 ## Technologies Used
-- **Python**
-- _**Pandas**_ for data manipulation
-- _**NumPy**_ for numerical calculations
-- _**Matplotlib**_ and Seaborn for data visualization
-- _**Yahoo Finance**_ for fetching historical stock data
+- **Python Library**
+   - _**Pandas**_ for data manipulation
+   - _**NumPy**_ for numerical calculations
+   - _**Matplotlib**_ and Seaborn for data visualization
+   - _**Yahoo Finance**_ for fetching historical stock data
 
 ## Getting Started
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   '''bash
+   ```bash
    git clone https://github.com/rishita3003/Portfolio-Optimization.git
-   '''
+   ```
 
 2. Install required Python libraries:
-    '''bash pip install pandas numpy matplotlib seaborn yfinance
-'''
+    ```bash pip install pandas numpy matplotlib seaborn yfinance```
 
 3. Execute the Jupyter notebook:
-   '''bash
+   ```bash
    jupyter notebook "portfolio optimization.ipynb"
-'''
+   ```
 
 
 ## Notebook Summary
