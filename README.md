@@ -31,8 +31,54 @@ To run this project locally, follow these steps:
    jupyter notebook "portfolio optimization.ipynb"
    ```
 
+## Overview
+This Jupyter notebook orchestrates a series of data processing and analysis steps to optimize stock portfolios. Each step builds on the previous to methodically advance toward determining the most efficient portfolio configuration.
 
-## Notebook Summary
+## Architecture Steps
+
+### 1. Data Fetching
+- **Objective:** Collect historical closing prices of selected stocks.
+- **Tools Used:**
+  - Yahoo Finance API
+  - `yfinance` Python library
+- **Process:**
+  - Fetch closing prices for a predefined list of stocks over a specified date range.
+  - This data is foundational for subsequent analysis steps.
+
+### 2. Returns Calculation
+- **Objective:** Calculate daily logarithmic returns of the stocks.
+- **Methodology:**
+  - Logarithmic returns are used for their numerical stability and time-additivity.
+- **Process:**
+  - Calculate returns using `log(price_today / price_yesterday)`.
+
+### 3. Portfolio Simulation
+- **Objective:** Simulate various portfolio weight allocations to evaluate potential investment strategies.
+- **Tools Used:** NumPy for numerical computations.
+- **Process:**
+  - Generate thousands of random portfolio weight combinations (totaling 1).
+  - For each combination, compute the portfolio's expected return and risk.
+
+### 4. Optimization Output
+- **Objective:** Identify the optimal portfolio configuration with the highest Sharpe ratio.
+- **Tools Used:**
+  - Matplotlib for plotting
+  - NumPy for calculations
+- **Process:**
+  - Determine the portfolio with the best risk-adjusted return.
+  - Present this portfolio through tables and a graphical efficient frontier.
+
+### 5. Visualization and Conclusion
+- **Objective:** Visualize and conclude the analysis.
+- **Tools Used:**
+  - Matplotlib and Seaborn for visual representation
+- **Process:**
+  - Display scatter plots of simulated portfolios on a risk-return plane.
+  - Highlight the efficient frontier and the optimal portfolio.
+
+## Conclusion
+This structured approach ensures systematic analysis and supports clear decision-making, making the notebook a reusable and adaptable tool for portfolio optimization tasks.
+
 
 
 ## Results
