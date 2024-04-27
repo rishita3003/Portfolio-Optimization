@@ -17,16 +17,16 @@ This project focuses on the risk assessment and optimization of stock portfolios
 ## Getting Started
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/rishita3003/Portfolio-Optimization.git
    ```
 
-2. Install required Python libraries:
+2. **Install required Python libraries**:
     ```bash
    pip install pandas numpy matplotlib seaborn yfinance```
 
-4. Execute the Jupyter notebook:
+4. **Execute the Jupyter notebook**:
    ```bash
    jupyter notebook "portfolio optimization.ipynb"
    ```
