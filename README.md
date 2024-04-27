@@ -24,7 +24,8 @@ To run this project locally, follow these steps:
 
 2. **Install required Python libraries**:
     ```bash
-   pip install pandas numpy matplotlib seaborn yfinance```
+   pip install pandas numpy matplotlib seaborn yfinance
+    ```
 
 4. **Execute the Jupyter notebook**:
    ```bash
