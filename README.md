@@ -23,9 +23,10 @@ To run this project locally, follow these steps:
    ```
 
 2. Install required Python libraries:
-    ```bash pip install pandas numpy matplotlib seaborn yfinance```
+    ```bash
+   pip install pandas numpy matplotlib seaborn yfinance```
 
-3. Execute the Jupyter notebook:
+4. Execute the Jupyter notebook:
    ```bash
    jupyter notebook "portfolio optimization.ipynb"
    ```
