@@ -77,11 +77,6 @@ This Jupyter notebook orchestrates a series of data processing and analysis step
   - Display scatter plots of simulated portfolios on a risk-return plane.
   - Highlight the efficient frontier and the optimal portfolio.
 
-## Conclusion
-This structured approach ensures systematic analysis and supports clear decision-making, making the notebook a reusable and adaptable tool for portfolio optimization tasks.
-
-
-
 ## Results
 - Visualizations of the efficient frontier demonstrate the trade-off between risk and return.
 - The optimal portfolio configuration and its expected annual return and risk metrics are presented.
